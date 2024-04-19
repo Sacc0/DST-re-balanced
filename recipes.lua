@@ -43,5 +43,21 @@ AllRecipes["ruinshat"].ingredients = {
     Ingredient("redgem", 1)
 }
 
+AllRecipes["winterhat"].ingredients = {
+    Ingredient("silk", 4),
+    Ingredient("beefalowool", 4),
+    Ingredient("manrabbit_tail", 1)
+}
+
+AllRecipes["raincoat"].ingredients = {
+    Ingredient("tentaclespots", 1),
+    Ingredient("rope", 2),
+    Ingredient("waxpaper", 1)
+}
+
+AllRecipes["nightsword"].ingredients = {
+    Ingredient("livinglog", 2),
+    Ingredient("nightmarefuel", 8)
+}
 AllRecipes["book_moon"].ingredients = { Ingredient("papyrus", 2), Ingredient("alterguardianhatshard", 1) }
 AllRecipes["book_bees"].ingredients = { Ingredient("papyrus", 2), Ingredient("royal_jelly", 1) }
