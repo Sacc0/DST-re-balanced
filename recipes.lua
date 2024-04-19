@@ -14,11 +14,15 @@ AllRecipes["blowdart_fire"].numtogive = 4
 AllRecipes["blowdart_yellow"].numtogive = 4
 AllRecipes["blowdart_sleep"].numtogive = 4
 
-AllRecipes["armorwood"].ingredients = {
-    Ingredient("rope", 1),
-    Ingredient("log", 7),
-    Ingredient("charcoal", 2)
-}
+AddRecipe("armorwood",
+        {
+            Ingredient("rope", 2),
+            Ingredient("log", 7),
+            Ingredient("charcoal", 2)
+        },
+        GLOBAL.CRAFTING_FILTERS.ARMOUR,
+        GLOBAL.TECH.SCIENCE_ONE
+)
 
 AllRecipes["footballhat"].ingredients = {
     Ingredient("pigskin", 1),
@@ -59,5 +63,6 @@ AllRecipes["nightsword"].ingredients = {
     Ingredient("livinglog", 2),
     Ingredient("nightmarefuel", 8)
 }
+
 AllRecipes["book_moon"].ingredients = { Ingredient("papyrus", 2), Ingredient("alterguardianhatshard", 1) }
 AllRecipes["book_bees"].ingredients = { Ingredient("papyrus", 2), Ingredient("royal_jelly", 1) }
