@@ -1,11 +1,10 @@
 name = "DST re-balanced"
 description = ""
 author = "Sacco"
-version = "1.2"
+version = "1.3"
 forumthread = ""
-client_only_mod = false
-dont_starve_compatible = false
-reign_of_giants_compatible = true
 dst_compatible = true
+client_only_mod = false
+all_clients_require_mod = true
 
 api_version = 10

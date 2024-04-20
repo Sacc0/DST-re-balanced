@@ -1,11 +1,9 @@
 local postinit_prefab = {
     "armor-sanity",
-    "armordreadstone",
     "beargervest",
     "beefalo",
     "beefalohat",
     "beemine",
-    "blowdarts",
     "blueamulet",
     "books",
     "boomerang",
@@ -14,12 +12,10 @@ local postinit_prefab = {
     "eyeturret",
     "glasscutter",
     "hambat",
-    "icehat",
     "krampus",
     "maxwell",
     "meatballs",
     "nightlight_flame",
-    "nightsword",
     "ruinsbat",
     "ruinshat",
     "sanity-stations",
@@ -46,8 +42,6 @@ local postinit_prefab = {
     "robin_winter",
     "marsh_tree",
     "reflectivevest",
-    "raincoat",
-    "backpack",
     "heatrock",
     "cookiecuttercap",
     "whip",
@@ -78,3 +72,4 @@ local postinit_prefab = {
 
 
 for _, v in pairs(postinit_prefab) do modimport("prefabs/" .. v ..".lua") end
+modimport("recipes.lua")
