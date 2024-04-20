@@ -14,15 +14,11 @@ AllRecipes["blowdart_fire"].numtogive = 4
 AllRecipes["blowdart_yellow"].numtogive = 4
 AllRecipes["blowdart_sleep"].numtogive = 4
 
-AddRecipe("armorwood",
-        {
-            Ingredient("rope", 2),
-            Ingredient("log", 7),
-            Ingredient("charcoal", 2)
-        },
-        GLOBAL.CRAFTING_FILTERS.ARMOUR,
-        GLOBAL.TECH.SCIENCE_ONE
-)
+AllRecipes["armorwood"].ingredients = {
+    Ingredient("rope", 1),
+    Ingredient("log", 7),
+    Ingredient("charcoal", 2)
+}
 
 AllRecipes["footballhat"].ingredients = {
     Ingredient("pigskin", 1),
