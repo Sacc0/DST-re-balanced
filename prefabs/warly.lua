@@ -1,4 +1,4 @@
-GLOBAL.TUNING.WARLY_SAME_OLD_COOLDOWN = 2.5
+GLOBAL.TUNING.WARLY_SAME_OLD_COOLDOWN = 1200
 
 AddPrefabPostInit("warly", function(inst)
     if GLOBAL.TheWorld.ismastersim then
